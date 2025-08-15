@@ -37,9 +37,9 @@ function start(client) {
     if (resposta.some(palavra => palavrasChave.includes(palavra)) && user.step === 0) {
       await client.sendImage(
         userId,
-        './assets/images/clara-bot.jpg',
+        './assets/bela-bot.jpg',
         'clara-bot.jpg',
-        '👋 Olá! Meu nome é *_Clara_*, sou a assistente virtual da *Junta Médica Municipal de Maceió*.\n\nVamos iniciar seu agendamento?\n\nPor favor, me informe seu *nome completo*.'
+        '👋 Olá! Meu nome é *_Bela_*, sou a assistente virtual da *Junta Médica Municipal de Maceió*.\n\nVamos iniciar seu agendamento?\n\nPor favor, me informe seu *nome completo*.'
       );
       user.step = 1;
       return;

@@ -1,0 +1,19 @@
+{
+  "name": "junta-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google-cloud/dialogflow": "^7.2.0",
+    "actions-on-google": "^3.0.0",
+    "dialogflow-fulfillment": "^0.5.0",
+    "express": "^5.1.0",
+    "http": "^0.0.1-security",
+    "venom-bot": "^5.3.0"
+  }
+}
